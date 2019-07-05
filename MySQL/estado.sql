@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `estado`
 --
-
+DROP TABLE IF EXISTS `estado`;
 CREATE TABLE `estado` (
   `UF_ID` int(11) NOT NULL,
   `UF_NOME` varchar(75) DEFAULT NULL,
